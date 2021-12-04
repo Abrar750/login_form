@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Home page</title>
+</head>
+
+<body>
+  <nav class="bg-nav navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+        <a class="navbar-brand text-light" href="#">Sale/Buy Books</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Analysis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-light">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-light">Setrings</a>
+          </li>
+        </ul>
+        <form class="d-flex text-light">
+          <a class="btn btn-outline-success text-light" href="/logout">logout</a>
+        </form>
+      </div>
+    </div>
+  </nav><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body bg-success">
+            <h2>Total Earning</h2>
+            <h4>Rs 50000</h4>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body bg-info">
+            <h2>Total Earning</h2>
+            <h4>Rs 50000</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body bg-warning">
+            <h2>Total Earning</h2>
+            <h4>Rs 50000</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body bg-danger">
+            <h2>Total Earning</h2>
+            <h4>Rs 50000</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-9">
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <p>Create a new exprese</p>
+              <button class="btn btn-danger btn-block">Create</button>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
